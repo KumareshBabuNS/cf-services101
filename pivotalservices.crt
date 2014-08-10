@@ -1,0 +1,66 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:/C=US/O=Pivotal/CN=*.apps.pivotalservices.org
+   i:/C=US/O=Pivotal/CN=*.apps.pivotalservices.org
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDXTCCAkWgAwIBAgIUCZpa2QoGlNpTf0riQa6yBKj+5Q0wDQYJKoZIhvcNAQEF
+BQAwRDELMAkGA1UEBhMCVVMxEDAOBgNVBAoMB1Bpdm90YWwxIzAhBgNVBAMMGiou
+YXBwcy5waXZvdGFsc2VydmljZXMub3JnMB4XDTE0MDYyNjA0MzE0MloXDTE2MDYy
+NTA0MzE0MlowRDELMAkGA1UEBhMCVVMxEDAOBgNVBAoMB1Bpdm90YWwxIzAhBgNV
+BAMMGiouYXBwcy5waXZvdGFsc2VydmljZXMub3JnMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEA6lNcREJObap/8X1OUIxfcKdJ5FJG71tMdXgTElrzUEYa
+6xCEvuDa+SZiVuOBpJWFpfiGE/+rRyQyYgNr93WruKV55rxSn+fIDSUNBCnYOkWn
+jJcpMC5sTV1YxzFTBpUDyIGCafLDCO7PJA27tOcpldWHMy526sPePBfjxdMDCubU
+bAaFcMi9l/keqgm4te36nB6G4hQ9kSnrXTuv9sNzXK7GbDagi8SWHPn86DacogXW
+q8RALIGNaxPtqkXF+FfQEKCLODkfE9oROTtG+DZAwdxFhtY5sZneQQgplLr6GLE8
+pYycDlgGjpKXmc7jpCFE2PI/2JLrYD+CgdAayLzbXQIDAQABo0cwRTBDBgNVHREE
+PDA6ghoqLmFwcHMucGl2b3RhbHNlcnZpY2VzLm9yZ4IcKi5zeXN0ZW0ucGl2b3Rh
+bHNlcnZpY2VzLm9yZzANBgkqhkiG9w0BAQUFAAOCAQEAmzXs/jos0HjwnDh5VhKN
+tmFVBFUaQkxJ7q69pUkUbTEm9Jvga2Fk4OB+vmov7An9RWyjHJesywL/jdTkZW6m
+VnSuBZrjWkYHBVUn8EmjRQalrs0EOIFe3hSzE6hGNlajtQA5jcQkNhcyhiykz3wA
+Fit1TzucQEMgwvz73eOxmX+e2lDMuNHTH414Z19njtQ4g4U2m2Z/RXU+MQfQOt0E
+1tvaQUylqdDHwb8Jp77w+Na0KYCcg/TprZyH6P5zQTBVkUmvjn7KM2N8a0Bbt8XF
+GmzyMSfuJmPfWDNrsgxJ6jls1zOasjdm/hwBAm/Aqok8M7BhS2EuKZIvbX32P+nA
+vA==
+-----END CERTIFICATE-----
+subject=/C=US/O=Pivotal/CN=*.apps.pivotalservices.org
+issuer=/C=US/O=Pivotal/CN=*.apps.pivotalservices.org
+---
+No client certificate CA names sent
+---
+SSL handshake has read 1711 bytes and written 520 bytes
+---
+New, TLSv1/SSLv3, Cipher is DHE-RSA-AES256-SHA
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+SSL-Session:
+    Protocol  : TLSv1
+    Cipher    : DHE-RSA-AES256-SHA
+    Session-ID: 41E5BBECDC2333F5DC422468D913E9B5475A42BB31E8B7F70E2CD5CB8D6B3FB3
+    Session-ID-ctx: 
+    Master-Key: D56FE42DF13537C97F6A345C92C279A7770AAF9577F609C1715CE8CDA3D22CE8C61977731BBABF4BEBACA1ADACB52C87
+    Key-Arg   : None
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket:
+    0000 - 8c 5e 1b 94 0a ab f0 68-4f 2d 3c 78 c9 b4 27 f0   .^.....hO-<x..'.
+    0010 - a4 55 f5 f6 4f 98 1d cf-ed 26 14 74 5a 4a f7 86   .U..O....&.tZJ..
+    0020 - e0 b0 e5 a0 6b 58 b4 a0-61 dd 88 98 99 ec 94 4a   ....kX..a......J
+    0030 - 3c 36 c2 69 ec ae b1 aa-6e 2e a9 a2 26 af 07 6c   <6.i....n...&..l
+    0040 - d4 e6 94 2e 57 e1 b1 ab-7d c4 c7 b3 1b f1 9d 00   ....W...}.......
+    0050 - 2d 99 91 32 90 d0 34 fe-e0 fa 1d 49 ea 64 19 76   -..2..4....I.d.v
+    0060 - d0 c8 92 e9 04 30 ec 17-0c f5 db c0 2d 15 ed 92   .....0......-...
+    0070 - 21 92 65 6a 0c 9a 4f 32-24 24 6e 7a 05 e1 e3 af   !.ej..O2$$nz....
+    0080 - a2 d3 0b 08 f7 c9 ac b7-dc f6 f6 56 c1 cf aa fa   ...........V....
+    0090 - 56 f2 b5 16 26 74 e4 4f-7e 78 52 64 7e de 4e b9   V...&t.O~xRd~.N.
+
+    Start Time: 1407592268
+    Timeout   : 300 (sec)
+    Verify return code: 18 (self signed certificate)
+---
