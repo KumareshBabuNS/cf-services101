@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 @Configuration
-@Profile("spring-cloud")
+@Profile("depracated")
 public class SpringCloudDataConfig extends AbstractCloudConfig{
 	@Bean(name="test")
 	public DataSource dataSource(){

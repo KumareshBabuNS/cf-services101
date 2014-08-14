@@ -7,7 +7,7 @@ applications:
   domain: apps.pivotalservices.org
   path: target/demo-0.0.1-SNAPSHOT.jar
   env:
-    SPRING_PROFILES_ACTIVE: default
+    SPRING_PROFILES_ACTIVE: spring-cloud
     URL: jdbc:mysql://172.16.0.54:3306/cf_18b79bd4_c84c_4361_b989_b812a4f8f0d
     PASSWORD: qJIBrTsev5XNHR7N
     USERNAME: a1uuu9KNol0qiXzf
