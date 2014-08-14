@@ -1,22 +1,22 @@
 package demo.data;
 
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
 import javax.sql.DataSource;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
-import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder;
-import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
 @Configuration
 @Profile("default")
 public class H2DataConfig{
     @Bean(name="test")
-    public DataSource dataSource() {
-        return new EmbeddedDatabaseBuilder()
-                .setName("music")
-                .setType(EmbeddedDatabaseType.H2)
-                .addScript("test.sql")
-                .build();
+    public DataSource dataSource() throws NamingException {
+    	Context initContext = new InitialContext();
+    	Context envContext  = (Context)initContext.lookup("java:/comp/env");
+    	DataSource ds = (DataSource)envContext.lookup("jdbc/mysql");
+    	return ds;
     }
 }

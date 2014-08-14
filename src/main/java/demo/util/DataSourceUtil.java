@@ -16,6 +16,7 @@ public class DataSourceUtil {
 
 		JSONObject credentials = json.getJSONArray("p-mysql").getJSONObject(0)
 				.getJSONObject("credentials");
+		
 
 		map.put("url",
 				"jdbc:mysql://" + credentials.getString("hostname") + ":"
